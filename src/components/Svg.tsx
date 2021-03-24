@@ -1,5 +1,4 @@
 import React from 'react'
-import { Box, Button } from "@chakra-ui/react"
 import { SVG, extend as SVGextend, Element as SVGElement } from '@svgdotjs/svg.js'
 import testFunc from '../lib/test'
 
@@ -7,12 +6,12 @@ import testFunc from '../lib/test'
 
 class Svg extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: null,
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         value: null,
+    //     };
+    // }
 
     createRect() {
         var draw = SVG().addTo('#svgBox').size(300, 130)
@@ -22,15 +21,15 @@ class Svg extends React.Component {
 
     render() {
         return (
-            <Box>
+            <div>
                 <div id='svgBox'>
                 </div>
                 <svg>
                 </svg>
-                <Button onClick={this.createRect}>
+                <button onClick={this.createRect}>
                     Click me !
-                </Button>
-            </Box>
+                </button>
+                </div>
         )
     }
 }
