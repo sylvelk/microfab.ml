@@ -1,0 +1,14 @@
+{
+    "machines": [
+        {
+            "name": "ACS 200",
+            "manufacturer": "Süss",
+            "location": "Zone 01",
+            "website": "https://cmi.epfl.ch",
+            "tags": ["photolitho", "coating"]
+        },
+        {
+
+        }
+    ]
+}
