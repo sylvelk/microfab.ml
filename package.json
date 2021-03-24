@@ -16,6 +16,7 @@
   "private": true,
   "dependencies": {
     "@blueprintjs/core": "^3.41.0",
+    "@blueprintjs/select": "^3.15.8",
     "@svgdotjs/svg.js": "^3.0.16",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -35,6 +36,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "serve": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

@@ -1,5 +1,6 @@
 import React from 'react'
 import { SVG, extend as SVGextend, Element as SVGElement } from '@svgdotjs/svg.js'
+import { Button } from "@blueprintjs/core";
 import testFunc from '../lib/test'
 
 
@@ -26,9 +27,9 @@ class Svg extends React.Component {
                 </div>
                 <svg>
                 </svg>
-                <button onClick={this.createRect}>
+                <Button onClick={this.createRect}>
                     Click me !
-                </button>
+                </Button>
                 </div>
         )
     }
