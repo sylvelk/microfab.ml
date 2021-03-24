@@ -1,6 +1,18 @@
 {
   "name": "microfab",
   "version": "0.1.0",
+  "description": "Simple webapp to help elaborating microfabrication process-flows.",
+  "homepage": "https://microfab.ml",
+  "bugs": {
+    "url": "https://github.com/sylvelk/microfab.ml/issues",
+    "email": "sylvelk@gmail.com"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Sylvain El-Khoury",
+    "email": "sylvelk@gmail.com",
+    "url": "https://about.me/sylvain.el-khoury"
+  },
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.0.0",
@@ -25,7 +37,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
